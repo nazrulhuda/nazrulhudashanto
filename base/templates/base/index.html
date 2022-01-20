@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176996163-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-176996163-1');
+    </script>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shanto</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integritry="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    
+    
+</head>
+<body >
+    <div class="no">
+        
+            {% if messages %}
+             {% for message in messages %}
+                    <div class="alert alert-{{message.tags}}">
+                       {{ message }}
+                    </div>
+                 {% endfor %}
+            {% endif %}
+    
+    </div">       
+    <header class="main-header container" class="timeline"  >
+        <a target="_blank" href="{% static 'pdfs/resume.pdf' %}" class="btn sign-up" data-aos="fade-down" data-aos-delay="800">Download Resume</a>
+    
+        
+    </header>
+    <script>
+        document.body.classList.add('js-loading');
+
+        window.addEventListener("load", showPage);
+
+        function showPage() {
+        document.body.classList.remove('js-loading');
+        }
+    </script>
+
+    
+    <section class="hero container" class="timeline" >
+        <div class="content-wrapper">
+           
+            <h1 class="title"data-aos="fade-down" data-aos-delay="200" >Nazrul Huda Shanto<span></span></h1>
+            <div class="social-media" data-aos="fade-down" data-aos-delay="400">
+                        
+                <a href="https://www.linkedin.com/in/nazrulhudashanto" class="icon-link">
+                    <i class="fab fa-linkedin"></i>
+                                          
+                    
+                </a>
+           
+                <a href="https://github.com/nazrulhuda" class="icon-link">
+                    <i class="fab fa-github-square"></i>
+                    
+                </a>
+           
+                <a href="https://www.facebook.com/ctg.nhs/" class="icon-link">
+                    <i class="fab fa-facebook-square"></i>
+                    
+                    
+                </a>
+         
+            </div>
+
+            
+            
+        </div>
+
+            
+            
+        
+        <div class="profile-img" data-aos="fade-up" data-aos-delay="1000" >
+            <img src="{% static 'images/profile.jpg' %}" alt=""> 
+           
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-details">
+                <div class="about-heading"data-aos="fade-up" data-aos-delay="1500">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                    
+                </div>
+                <p class="about-nise4"data-aos="fade-up" data-aos-delay="400">             I was born and raised in Chittagong. Moved to Dhaka back in 2017. Currently pursuing my bachelors degree from BRAC University. I am in my last semester studying Computer Science. I like to try new things and take challenges as well. Psychology and philosophy interests me. I love reading historical figures and their findings. Half of my dopamine comes from making web apps and other half from trying new things and places</p>
+
+               
+                
+            </div>
+            
+
+        </div>
+
+    </section>
+        
+            
+        
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="about-nise4"  data-aos="fade-down" data-aos-delay="400">
+                <h1>Projects</h1>
+               
+            </div>
+           
+            <div class="portfolio-item">
+                <div class="ko1" data-aos="fade-right" data-aos-delay="400">
+
+                    <img src="{% static 'images/korr1.png' %}">
+                   
+                    
+                </div>
+                <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
+                    <a href="https://bracuresearcherhub.herokuapp.com/" class="cta">BRACU ResearcherHub</a>
+                    <h1>Django+Bootsrap; Deployed on Heroku
+                                                                                                 
+                    </h1>
+                    <p>Social media app for bracu researchers. Researchers can open different research labs under separate research areas. Interested people can join and comment on the lab. It is an easy way to find your next research collaborator,
+                    </p>
+                    
+                </div>
+            </div>
+            
+            <div class="portfolio-item ">
+                <div class="about-nise2"  data-aos="fade-right" data-aos-delay="400">
+                    <a href="https://nazrulhudashantojoss.herokuapp.com/" class="cta">YellowBlog</a> 
+                    <h1>Django+Bootstrap; Deployed on Heroku</h1>
+                    <p>Keep your friends updated by sharing your thoughts on YellowBlog.
+                    </p>
+                    
+                </div>
+                <div class="ko2"  data-aos="fade-down" data-aos-delay="100">
+                    <img src="{% static 'images/portitem2.png' %}">
+                </div>
+            </div>
+            
+             
+        </div>
+    </section> 
+    
+    <section class="experience" id="experience" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+            <div class="about-nise4">
+                <h1>Work Experience</h1>
+                
+            </div>
+            <div class="timeline"  data-aos="fade-right" data-aos-delay="200">
+                <ul>
+                    <li class="date" data-date="August 2020-Present">
+                        <h1>Research Assistant at BRAC University</h1>
+                        <h2></h2>
+                        <p>I am working as a Research Assistant under the supervision of Jannatun Noor miss, who is a Graduate Research Assistant at BUET and a lecturer in BRAC University (https://sites.google.com/site/jannatun0abigzero/home) currently I am working on three projects.</p>
+
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </section> 
+
+    <section class="contact" id="contact">
+        
+        <div class="container">
+            <div class="about-nise8">
+                <h1 class="about-nise8">Contact me</h1>
+                <h6 class="about-nise8">Lets work together</h6>
+            </div>
+        </div>
+        <form action="" method="POST"  data-aos="fade-up" data-aos-delay="300">
+            {% csrf_token %}
+            <label for="name">Name:</label>
+            <input type="text" value="{{info.name}}" name="name" id="name" placeholder="Enter your name" required>
+            <label for="Email">Email:</label>
+            <input type="email" value="{{info.email}}" name="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="Message">Message</label>
+            <textarea type="text" value="{{info.message}}" name="message" id="subject"  cols="10" rows="10"></textarea>
+            <input type="submit" value="submit"></form>
+    
+    </section>
+    
+    
+   
+
+    
+
+    
+    
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i> 
+        </div>
+        <p>&copy; 2021 Nazrul Huda</p>
+    </footer>
+
+
+    
+   
+
+
+    
+</body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</html>
+
+
+    
+    
+    
+    
+        
