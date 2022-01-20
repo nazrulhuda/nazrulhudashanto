@@ -238,7 +238,8 @@ li {
 .portfolio-item {
     display: flex;
     align-items: baseline;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
+    margin-top: 7rem;
 }
 
 .portfolio-item:last-child {
@@ -427,16 +428,46 @@ input[type="submit"]:hover {
     opacity: 0%;
 }
 
-.about-nise4 {
-    margin-top: 12rem;
-    margin-left: 74rem;
+.about-nise10 {
+    margin-top: 7rem;
+    margin-right: 79rem;
+    margin-left: 19rem;
     padding: 1rem 2rem;
-    border: 24px solid pink;
+    border: 24px solid yellow;
     border-radius: 40rem;
     font-family: sans-serif;
     color: black;
     background-color: white;
     border-width: 2.7rem;
+    font-size: 4rem;
+    margin-bottom: 7rem;
+}
+
+.about-nise009 {
+    margin-top: 14rem;
+    margin-right: 75rem;
+    margin-left: 33rem;
+    padding: 1rem 2rem;
+    border: 24px solid yellow;
+    border-radius: 40rem;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    border-width: 2.7rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.about-nise4 {
+    margin-top: 12rem;
+    margin-left: 74rem;
+    padding: 1rem 2rem;
+    border: 24px solid gray;
+    border-radius: 40rem;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    border-width: 1rem;
     font-size: 2rem;
 }
 
