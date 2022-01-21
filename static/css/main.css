@@ -703,6 +703,24 @@ input[type="submit"]:hover {
         padding-bottom: 1rem;
         position: relative;
         margin-left: 11rem;
-        width: 120%;
+        width: 150%;
+    }
+    .main-header {
+        max-height: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 11rem;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    .content-wrapper {
+        height: 40vh;
+        transform: translateY(-4rem);
+        margin-left: 11rem;
+    }
+    .title {
+        font-size: 3.7rem;
+        margin-bottom: 2rem;
     }
 }
