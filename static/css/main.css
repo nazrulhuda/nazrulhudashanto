@@ -57,10 +57,17 @@ body {
     animation: hue 10s infinite alternate;
 }
 
+.loko {
+    border-radius: 20%;
+    width: 40%;
+    margin-left: 15rem;
+}
+
+
 img {
     border-radius: 20%;
-    width: 105%;
-    margin-right: 18rem;
+    width: 120%;
+    margin-right: 2rem;
 }
 
 body::after {
@@ -179,6 +186,7 @@ body::after {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .about-heading {
@@ -186,7 +194,7 @@ body::after {
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-left: 77rem;
+    margin-left: 55rem;
 }
 
 .about-heading h1 {
@@ -460,15 +468,15 @@ input[type="submit"]:hover {
 
 .about-nise4 {
     margin-top: 12rem;
-    margin-left: 74rem;
+    margin-left: 55rem;
     padding: 1rem 2rem;
-    border: 24px solid gray;
+    border: 20px solid gray;
     border-radius: 40rem;
     font-family: sans-serif;
     color: black;
     background-color: white;
     border-width: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .timeline ul {
@@ -535,6 +543,10 @@ input[type="submit"]:hover {
     font-weight: 300;
     margin-bottom: 1rem;
     color: antiquewhite;
+}
+
+.loogg {
+    width: 70%;
 }
 
 .ko1 {
