@@ -50,11 +50,11 @@ a {
 
 body {
     height: auto;
-    background: url("../images/wallpaper.jpg");
+    background: url("../images/wall2.jpg");
     position: initial;
     z-index: 1;
     overflow-x: hidden;
-    animation: hue 10s infinite alternate;
+    animation: hue 100000s infinite alternate;
 }
 
 .loko {
