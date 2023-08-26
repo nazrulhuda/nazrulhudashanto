@@ -22,7 +22,7 @@
     
     
 </head>
-<body >
+<body class="static-background">
     <div class="no">
         
             {% if messages %}
@@ -35,7 +35,7 @@
     
     </div">       
     <header class="main-header container" class="timeline"  >
-        <a target="_blank" href="{% static 'pdfs/resume.pdf' %}" class="btn sign-up" data-aos="fade-down" data-aos-delay="800">Download Resume</a>
+       
     
         
     </header>
@@ -50,10 +50,38 @@
     </script>
 
     
+   
+    <section class="about" id="about">
+        <div class="loko" data-aos="fade-up" data-aos-delay="1000" >
+            <img src="{% static 'images/profile.jpg' %}" alt=""> 
+           
+        </div>
+        <div class="container">
+           
+            <div class="about-details">
+                <div class="about-heading"data-aos="fade-up" data-aos-delay="1500">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                    
+                </div>
+                <p class="about-nise4"data-aos="fade-up" data-aos-delay="400">Hey. This is Nazrul Huda Shanto. While conducting a research in southeast Bandarban, I came across numerous indigenous individuals who have big dreams but lack the resources such as internet access or financial capability to pursue
+                    them. As someone who has always searched for a passion, I felt myself being compelled to help these underprivileged individuals to assist their cause. I strongly believe technological innovations will improve their lives. To acheive my goal I started working with OCRs. I have worked on AI models, from both self made datasets also statblished datasets.
+                    Recently I worked on production level AI developement on a project for a client. In my ongoing software engineer job, i work on multiple areas wherever my client needs help. From AI solutions, to AWS integration and creating apis with clients 
+                    preferred frameworks and databases; I am on a rolar coaster of developing skills and making happy clients. Now, I am planning for pursing MS in Computer Science. Feel free to contact at md.nazrul.huda.shanto@g.bracu.ac.bd</p>
+
+               
+                
+            </div>
+            
+
+        </div>
+
+    </section>
     <section class="hero container" class="timeline" >
         <div class="content-wrapper">
            
-            <h1 class="title"data-aos="fade-down" data-aos-delay="200" >Nazrul Huda Shanto<span></span></h1>
+           
+            <h1 class="title"data-aos="fade-down" data-aos-delay="200" ><span></span></h1>
             <div class="social-media" data-aos="fade-down" data-aos-delay="400">
                         
                 <a href="https://www.linkedin.com/in/nazrulhudashanto" class="icon-link">
@@ -74,6 +102,7 @@
                 </a>
          
             </div>
+            <a target="_blank" href="{% static 'pdfs/resume.pdf' %}" class="btn" data-aos="fade-down" data-aos-delay="800">Download Resume</a>
 
             
             
@@ -82,79 +111,11 @@
             
             
         
-        <div class="loko" data-aos="fade-up" data-aos-delay="1000" >
-            <img src="{% static 'images/profile.jpg' %}" alt=""> 
-           
-        </div>
+        
     </section>
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-details">
-                <div class="about-heading"data-aos="fade-up" data-aos-delay="1500">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                    
-                </div>
-                <p class="about-nise4"data-aos="fade-up" data-aos-delay="400">While conducting a research in southeast Bandarban, to understand the technology adoption of the
-                    most vulnerable indigenous communities in Bangladesh, I came across numerous indigenous individuals who have big dreams but lack the resources such as internet access or financial capability to pursue
-                    them. As someone who has always searched for a passion, I felt myself being compelled to help these underprivileged individuals to assist their cause. I strongly believe technological innovations will improve their lives. To acheive my goal I started working with OCRs. I have worked on AI models, from both self made datasets also statblished datasets.
-                    Recently I worked on production level AI developement on a project for a client. In my ongoing software engineer job, i work on multiple areas wherever my client needs help. From AI solutions, to AWS integration and creating apis with clients 
-                    preferred frameworks and databases; I am on a rolar coaster of developing skills and making happy clinets. Now, I am planning for pursing MS in Computer Science.</p>
-
-               
-                
-            </div>
-            
-
-        </div>
-
-    </section>
-        
-            
-        
-
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="about-nise009"  data-aos="fade-down" data-aos-delay="400">
-                <h1>Projects</h1>
-               
-            </div>
-           
-            <div class="portfolio-item">
-                <div class="ko1" data-aos="fade-right" data-aos-delay="400">
-
-                    <img src="{% static 'images/korr1.png' %}">
-                   
-                    
-                </div>
-                <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
-                    <a href="https://bracuresearcherhub.herokuapp.com/" class="cta">BRACU ResearcherHub</a>
-                    <h1>Django+Bootsrap; Deployed on Heroku
-                                                                                                 
-                    </h1>
-                    <p>Social media app for BRACU researchers. Researchers can open separate research labs under a research area. Interested people can join and comment on the lab. It is an easy way to find your next research collaborator.
-                    </p>
-                    
-                </div>
-            </div>
-            
-            <div class="portfolio-item ">
-                <div class="about-nise2"  data-aos="fade-right" data-aos-delay="400">
-                    <a href="https://nazrulhudashantojoss.herokuapp.com/" class="cta">YellowBlog</a> 
-                    <h1>Django+Bootstrap; Deployed on Heroku</h1>
-                    <p>Keep your friends updated by sharing your thoughts on YellowBlog.
-                    </p>
-                    
-                </div>
-                <div class="ko2"  data-aos="fade-down" data-aos-delay="100">
-                    <img src="{% static 'images/portitem2.png' %}">
-                </div>
-            </div>
-            
-             
-        </div>
-    </section> 
     
+        
+            
     <section class="experience" id="experience" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <div class="about-nise10">
@@ -179,48 +140,86 @@
                     
                 </ul>
             </div>
+           
+        </div>
+        
+    </section>     
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="about-nise009"  data-aos="fade-down" data-aos-delay="400">
+                <h1>Research experience and Project</h1>
+               
+            </div>
+           
             <div class="portfolio-item">
                
                 <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
                     
-                    <h1>Fieldwork in the conflict zone of Andharmanik
-                                                                                                 
-                    </h1>
-                    <p>Qualitative data collection in the most remote zone of Bangladesh. 9 days of fieldwork with distributing mountain regions most needed medicines in 144 indigenous families.</p>
-                    
-                </div>
-                <div class="loogg" data-aos="fade-right" data-aos-delay="400">
+                    <p>Qualitative data collection in the most remote zone of Bangladesh. 
+                    </p>
+                    <p>
+                        It was 9 days of fieldwork where we distributed medicines 
+                        in 144 indigenous families.</p>
+                    <div class="loogg" data-aos="fade-right" data-aos-delay="400">
     
-                    <img src="{% static 'images/ex1.jpg' %}">
-                    <img src="{% static 'images/ex2.jpg' %}">
-                   
-                    
+                        
+                        <img class="ok2" src="{% static 'images/ex2.jpg' %}">
+                       
+                        
+                    </div>
                 </div>
+               
             </div>
            
             <div class="portfolio-item">
-                <div class="ko1" data-aos="fade-right" data-aos-delay="400">
-    
-                    <img src="{% static 'images/ex3.jpg' %}">
-                   
-                   
-                    
-                </div>
                 
-                <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
+                
+                <div class="about-nise1090" data-aos="fade-left" data-aos-delay="100">
                     <a href="https://www.researchgate.net/publication/356811966_Orchestrating_Image_Retrieval_and_Storage_over_A_Cloud_System" class="cta">Research Link</a>
-                    <h1>
+                    <p>
+                        Presested in 2021 8th NsySs, December 21-23, 2021
                                                                                                  
-                    </h1>
-                    <p> Presested in 2021 8th International Conference on Networking, Systems and Security, December 21-23, 2021
                     </p>
+                    <p> 
+                    </p>
+                    <div class="ko1" data-aos="fade-right" data-aos-delay="400">
+    
+                        <img src="{% static 'images/ex3.jpg' %}">
+                       
+                       
+                        
                     
+                    </div>
+                
                 </div>
                 
             </div>
+            <div class="portfolio-item">
+                
+                <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
+                    <a href="https://bracuresearcherhub.onrender.com/" class="cta">BRACU ResearcherHub</a>
+                    
+                    <p>Social media app for BRACU researchers. Researchers can open separate research labs under a research area. Interested people can join and comment on the lab. It is an easy way to find your next research collaborator.
+                    </p>
+                    <div class="ko1" data-aos="fade-right" data-aos-delay="400">
+
+                        <img src="{% static 'images/korr1.png' %}">
+                       
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+             
         </div>
-        
     </section> 
+    
+
+  
+    
+    
 
     <section class="contact" id="contact">
         
