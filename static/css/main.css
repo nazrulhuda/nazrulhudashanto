@@ -488,7 +488,7 @@ input[type="submit"]:hover {
 .about-nise4 {
    margin-top: 10rem;
     margin-left: 55rem;
-    padding: 1rem 2rem;
+
     
     border-radius: 40rem;
     font-family: sans-serif;
@@ -603,165 +603,288 @@ input[type="submit"]:hover {
     border-style: hidden;
 }
 
-@media screen and (max-width: 700px) {
-    .btn {
-        padding: 1.5rem 3rem;
-    }
-    .content-wrapper {
-        max-width: 60rem;
-    }
-    .tagline {
-        font-size: 1.6rem;
-    }
-    .title {
-        font-size: 6rem;
-    }
-    .message {
-        font-size: 2rem;
-    }
-    body {
-        width: 370%;
-        background: url("../images/wall2.jpg");
-        position: initial;
-        z-index: 1;
-        overflow-x: hidden;
-        animation: hue 10s infinite alternate;
-    }
-    .profile-img {
-        width: 60%;
-        margin-right: 10rem;
-    }
-    .title {
-        font-size: 4rem;
-    
-    }
-    .hero {
-        min-height: 20vh;
-        display: flex;
-        align-items: center;
-        height: calc(100% - 12rem);
-        margin-left: 7rem;
-        margin-top: 8rem;
-    }
-    .about .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+@media screen and (max-width: 576px) {
+    .loko{
+        width: 80%;
+        margin-left: -3rem;
     }
     .about-heading {
-        text-align: center;
-        text-transform: uppercase;
-        line-height: 0;
-        margin-left: 58rem;
+       width: 5%;
+       margin-bottom: -5rem;
     }
+    
     .about-heading h1 {
-        font-size: 15rem;
-        opacity: .5;
+        font-size: 7rem;
+        opacity: .7;
+        color: yellow
     }
+    
     .about-heading h6 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 300;
-        margin-left: 2rem;
-        margin-top: 0rem;
+        margin-left: 10.8rem;
     }
-    .about-nise4 {
-        margin-left: 55rem;
-        padding: 1rem 2rem;
-        border: 24px solid gray;
-        border-radius: 40rem;
+    .about .container {
+        margin-right: 3rem;
+         margin-top:5rem ;
+      
+         
+     }
+     .about-nise4 {
+       
+     
+         
+        
+         font-family: sans-serif;
+         
+         font-size: .6rem;
+     }
+     .social-media {
+       
+        margin-left: 23rem;
+        margin-top: -24rem;
+        
+       
+    }
+    .social-media i {
+        font-size: 1.3rem;
+        color:white;
+        text-align: center;
+        
+    }
+    .btn {
+
+   
+        border: 2px solid yellow;
+       
         font-family: sans-serif;
-        color: black;
-        background-color: white;
-        border-width: 1rem;
-        font-size: 1rem;
+        margin-top: 23rem;
+        margin-left: 9.4rem;
+        font-size: .8rem;
+        color: #fff;
+        background-color: #000;
+        background-size:contain;
+
+        border-radius: 16rem;
+        background-size: auto
+        
+       
     }
-    section {
-        padding: 2rem;
-    }
-    .content-wrapper {
-        height: 40vh;
-        transform: translateY(-4rem);
-    }
-    .container {
-        min-height: 10vh;
-        max-width: 140rem;
-        margin: 0 auto;
-        padding: 0 1.5rem;
-    }
-    .about-nise009 {
-        margin-top: 11rem;
-        margin-right: 61rem;
-        margin-left: 31rem;
-        padding: 1rem 2rem;
-        border: 24px solid yellow;
-        border-radius: 40rem;
-        font-family: sans-serif;
-        color: black;
-        background-color: white;
-        border-width: 2.7rem;
-        font-size: 3.4rem;
-        margin-bottom: 1rem;
-    }
-    .portfolio-item {
-        display: flex;
-        align-items: baseline;
-        margin-bottom: 4rem;
-        margin-top: 7rem;
-        margin-left: 11rem;
-        margin-right: 11rem;
-    }
-    .ko1 {
-        width: 180%;
-    }
-    .about-nise2 {
-        padding: 1rem 2rem;
-        border: 4px solid yellow;
-        border-radius: 14rem;
-        font-family: sans-serif;
-        color: white;
-        background-color: black;
-        border-width: 4rem;
-        font-size: 1.8rem;
-        border-style: hidden;
-    }
+   
+   
+   
+
+    
+   
+    
     .about-nise10 {
-        margin-top: 7rem;
-        margin-right: 67rem;
-        margin-left: 19rem;
-        padding: 1rem 2rem;
-        border: 24px solid yellow;
-        border-radius: 40rem;
+        margin-top: -34rem;
+        margin-right: 125rem;
+        margin-left:  -4rem;
+    
+        
+        
+        
         font-family: sans-serif;
-        color: black;
-        background-color: white;
-        border-width: 2.7rem;
-        font-size: 3.5rem;
-        margin-bottom: 9rem;
+        font-size: .8rem;
+        margin-bottom: -5rem;
     }
+    .timeline ul {
+        border-left: 1px solid wheat;
+        border-radius: .4rem;
+        background-color: rgba(0, 0, 0, 0.05);
+        margin: 1;
+        position: relative;
+        padding: 3rem;
+        list-style: none;
+        text-align: left;
+        width: 5%;
+        margin-left: 14rem;
+    }
+    
+    .timeline h1 {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-bottom: 0rem;
+        min-width: 9rem;
+    }
+    .timeline p {
+        font-size: .7rem;
+        min-width: 9rem;
+        
+    }
+    
     .timeline .date {
         border-bottom: 1px solid rgba(255, 255, 255, 0. 1);
         margin-bottom: 1rem;
         padding-bottom: 1rem;
         position: relative;
-        margin-left: 11rem;
-        width: 150%;
     }
-    .main-header {
-        max-height: 2vh;
+    
+    .timeline .date:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
+    }
+    
+    .timeline .date::before,
+    .timeline .date::after {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: .8rem;
+    }
+    
+    .time .date::before {
+        content: attr(data-date);
+        left: -21rem;
+        text-align: right;
+        min-width: 12rem;
+        font-size: 2rem;
+    }
+    
+    .time .date::after {
+        content: '';
+        box-shadow: 0 0 0 4px #fd57bf;
+        border-radius: 30%;
+        left: 8rem;
+        height: 1rem;
+        width: 1rem;
+        background-color: #313534;
+    }
+    .about-nise009 {
+    
+
+
+        
+        margin-top: -11rem;
+        margin-right: 1rem;
+        margin-left:  2rem;
+    
+        
+        
+        
+        font-family: sans-serif;
+        font-size: .8rem;
+        margin-bottom: -5rem;
+    }
+    .portfolio-item {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 11rem;
-        margin-top: 3rem;
-        margin-bottom: 6rem;
+        align-items: baseline;
+        margin-bottom: 4rem;
+        margin-right: -4rem;
+        margin-top: 7rem;
+        margin-left: 1rem
     }
-    .content-wrapper {
-        height: 40vh;
-        transform: translateY(-4rem);
-        margin-left: 11rem;
+    .about-nise2 {
+
+    
+        font-family: sans-serif;
+        color: white;
+        font-size: .7rem;
+        margin-left: -5rem;
+        
     }
-    .title {
-        font-size: 3rem;
-        margin-bottom: 2rem;
+    .ok2{
+        margin-top: -2rem;
+        
     }
+    .about-nise1090 {
+
+        margin-top: -4rem;
+        font-family: sans-serif;
+        color: white;
+        font-size: .7rem;
+        margin-left: 5rem;
+        margin-bottom: -4rem;
+    
+    }
+    .ko1 {
+        margin-left: -10rem;
+        width: 157%;
+        margin-top: 1rem;
+    }
+    .pop{
+        width: 60%;
+        margin-left: 10rem;
+    }
+    .contact {
+    background-color: #221e4f;
+    }
+
+    form {
+        width: 70%;
+    
+    }
+
+    form label {
+        font-size: .8rem;
+    }
+    
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        height:2.5rem;
+      
+        margin-bottom: 2px;
+      
+        outline-color: #fd57bf;
+        font-size: .7rem;
+
+    }
+
+    input[type="submit"]:hover {
+        color: #221e3f;
+        background-color: #ffe838;
+    }
+
+    .copyright .ff{
+        width: 100%;
+      
+        background-color: #16162d;
+        
+       
+        font-size: .8rem;
+    }
+
+    .up {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        background-color: #eee;
+        top: -2.5rem;
+        right: 5rem;
+        border-radius: 100%;
+        display: flex;
+        animation: pulse 2s infinite;
+    }
+    .ff{
+        font-size: .9rem;
+    }
+
+    .up i {
+        color: #16162d;
+        font-size: 2rem;
+        margin: auto;
+    }
+
+    .copyright p {
+        font-size: 1.4rem;
+    }
+    .about-nis {
+        margin-top: -1rem;
+        font-size: .9rem;
+    }
+    .about-nis2 {
+       
+        font-size: .9rem;
+    }
+        
+
+    
+ 
 }
