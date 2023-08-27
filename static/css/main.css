@@ -811,10 +811,13 @@ input[type="submit"]:hover {
         margin-left: 10rem;
     }
     .contact {
+    margin-top: -4rem;    
     background-color: #221e4f;
+    margin-bottom: -4rem;
     }
 
     form {
+        margin-top: -5.8rem;
         width: 70%;
     
     }
@@ -849,6 +852,7 @@ input[type="submit"]:hover {
         
        
         font-size: .8rem;
+        margin-bottom: -10rem;
     }
 
     .up {
@@ -876,7 +880,7 @@ input[type="submit"]:hover {
         font-size: 1.4rem;
     }
     .about-nis {
-        margin-top: -1rem;
+        margin-top: -2rem;
         font-size: .9rem;
     }
     .about-nis2 {
