@@ -103,7 +103,7 @@
                 </a>
          
             </div>
-            <a target="_blank" href="{% static 'pdfs/resume.pdf' %}" class="btn" data-aos="fade-down" data-aos-delay="800">Download Resume</a>
+            <a target="_blank" href="{% static 'images/IMG_20230908_153532.jpg' %}" class="btn" data-aos="fade-down" data-aos-delay="800">Download Image</a>
 
             
             
@@ -117,131 +117,7 @@
     
         
             
-    <section class="experience" id="experience" data-aos="fade-up" data-aos-delay="200">
-        <div class="container">
-            <div class="about-nise10">
-                <h1>Work Experience</h1>
-                
-            </div>
-            <div class="timeline"  data-aos="fade-right" data-aos-delay="200">
-                <ul>
-                    <li class="date" data-date="February 2023-Present">
-                        <h1>Junior Software Engineer at Tirzok Private Limited</h1>
-                        <h2></h2>
-                        <p>My work includes AI Solutions, aws integration, and building apis. I worked on multiple frameworks and both sql and nosql dbs.</p>
-
-                    </li>
-                    <li class="date" data-date="October 2020-January 2023">
-                        <h1>Research Assistant at BRAC University</h1>
-                        <h2></h2>
-                        <p>I have worked as a Research Assistant at Computing for Sustainability and Social Good (C2SG) Lab, BRAC University</p>
-
-                    </li>
-                    
-                    
-                </ul>
-            </div>
-           
-        </div>
-        
-    </section>     
-
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="about-nise009"  data-aos="fade-down" data-aos-delay="400">
-                <h1>Research experience and Project</h1>
-               
-            </div>
-           
-            <div class="portfolio-item">
-               
-                <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
-                    
-                    <p>Qualitative data collection in the most remote zone of Bangladesh. 
-                    </p>
-                    <p>
-                        It was 9 days of fieldwork where we distributed medicines 
-                        in 144 indigenous families.</p>
-                    <div class="loogg" data-aos="fade-right" data-aos-delay="400">
     
-                        
-                        <img class="ok2" src="{% static 'images/ex2.jpg' %}">
-                       
-                        
-                    </div>
-                </div>
-               
-            </div>
-           
-            <div class="portfolio-item">
-                
-                
-                <div class="about-nise1090" data-aos="fade-left" data-aos-delay="100">
-                    <a href="https://www.researchgate.net/publication/356811966_Orchestrating_Image_Retrieval_and_Storage_over_A_Cloud_System" class="cta">Research Link</a>
-                    <p>
-                        Presested in 2021 8th NsySs, December 21-23, 2021
-                                                                                                 
-                    </p>
-                    <p> 
-                    </p>
-                    <div class="ko1" data-aos="fade-right" data-aos-delay="400">
-    
-                        <img src="{% static 'images/ex3.jpg' %}">
-                       
-                       
-                        
-                    
-                    </div>
-                
-                </div>
-                
-            </div>
-            <div class="portfolio-item">
-                
-                <div class="about-nise2" data-aos="fade-left" data-aos-delay="100">
-                    <a href="https://bracuresearcherhub.onrender.com/" class="cta">BRACU ResearcherHub</a>
-                    
-                    <p>Social media app for BRACU researchers. Researchers can open separate research labs under a research area. Interested people can join and comment on the lab. It is an easy way to find your next research collaborator.
-                    </p>
-                    <div class="ko1" data-aos="fade-right" data-aos-delay="400">
-
-                        <img class ="pop" src="{% static 'images/korr1.png' %}">
-                       
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-             
-        </div>
-    </section> 
-    
-
-  
-    
-    
-
-    <section class="contact" id="contact">
-        
-        <div class="container">
-            <div class="sect">
-                <h1 class="about-nis">Contact me</h1>
-                <h6 class="about-nis2">Lets work together</h6>
-            </div>
-        </div>
-        <form action="" method="POST"  data-aos="fade-up" data-aos-delay="300">
-            {% csrf_token %}
-            <label for="name">Name:</label>
-            <input type="text" value="{{info.name}}" name="name" id="name" placeholder="Enter your name" required>
-            <label for="Email">Email:</label>
-            <input type="email" value="{{info.email}}" name="email" id="email" placeholder="Enter your email" required>
-            
-            <label for="Message">Message</label>
-            <textarea type="text" value="{{info.message}}" name="message" id="subject"  cols="10" rows="10"></textarea>
-            <input type="submit" value="submit"></form>
-    
-    </section>
     
     
    
