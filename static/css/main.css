@@ -603,7 +603,7 @@ input[type="submit"]:hover {
     border-style: hidden;
 }
 
-@media screen and (max-width: 367px) {
+@media screen and (max-width: 376px) {
     .loko{
         width: 80%;
         margin-left: -3rem;
