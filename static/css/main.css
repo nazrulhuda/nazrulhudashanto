@@ -603,7 +603,7 @@ input[type="submit"]:hover {
     border-style: hidden;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 367px) {
     .loko{
         width: 80%;
         margin-left: -3rem;
@@ -658,7 +658,7 @@ input[type="submit"]:hover {
         border: 2px solid yellow;
        
         font-family: sans-serif;
-        margin-top: 23rem;
+        margin-top: 20rem;
         margin-left: 9.4rem;
         font-size: .8rem;
         color: #fff;
@@ -678,7 +678,7 @@ input[type="submit"]:hover {
    
     
     .about-nise10 {
-        margin-top: -34rem;
+        margin-top: -24rem;
         margin-right: 125rem;
         margin-left:  -4rem;
     
@@ -687,7 +687,7 @@ input[type="submit"]:hover {
         
         font-family: sans-serif;
         font-size: .8rem;
-        margin-bottom: -5rem;
+        margin-bottom: -1.8rem;
     }
     .timeline ul {
         border-left: 1px solid wheat;
@@ -699,7 +699,7 @@ input[type="submit"]:hover {
         list-style: none;
         text-align: left;
         width: 5%;
-        margin-left: 14rem;
+        margin-left: 11rem;
     }
     
     .timeline h1 {
