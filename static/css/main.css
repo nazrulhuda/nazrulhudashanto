@@ -633,12 +633,13 @@ input[type="submit"]:hover {
          
      }
      .about-nise4 {
+        background-color: rgba(0, 0, 0, 0.1); 
         margin-top: 11rem;
        margin-bottom: 3rem;
-        margin-left: 55rem;
+        margin-left: 54rem;
         width: 42%; /* Adjust the width as needed */
-        
-       
+        border-radius: 0;
+        padding: 6px;
          font-family:sans-serif;
          font-size: 1.2rem;
      }
