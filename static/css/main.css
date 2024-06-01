@@ -679,15 +679,17 @@ input[type="submit"]:hover {
    
     
     .about-nise10 {
-        margin-top: -39rem;
+        margin-top: -37rem;
         margin-right: 125rem;
         margin-left:  -4rem;
     
-        
+        font-size: 1.2rem;
+        opacity: .7;
+        color: yellow;
         
         
         font-family: sans-serif;
-        font-size: .8rem;
+      
         margin-bottom: -1.8rem;
     }
     .timeline ul {
@@ -700,7 +702,7 @@ input[type="submit"]:hover {
         list-style: none;
         text-align: left;
         width: 5%;
-        margin-left: 11rem;
+        margin-left: 14rem;
     }
     
     .timeline h1 {
