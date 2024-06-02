@@ -80,6 +80,7 @@ body::after {
     top: 0;
     left: 0;
     filter: blur(1rem);
+    -webkit-filter: blur(1rem); 
     z-index: -1;
     transform: scale(1.15);
 }
