@@ -3272,7 +3272,7 @@ input[type="submit"]:hover {
  
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1227px){
     .loko{
         margin-top: -11rem;
         width: 35%;
@@ -3285,6 +3285,290 @@ input[type="submit"]:hover {
        margin-bottom: 3rem;
         margin-left: 58rem;
         width: 70%; /* Adjust the width as needed */
+       
+        
+         font-family:sans-serif;
+         font-size: 2rem;
+     }
+     .social-media {
+       
+        margin-left:28rem;
+        margin-top: -56rem;
+        
+       
+    }
+    .social-media i {
+        font-size: 4rem;
+        color:white;
+        text-align: center;
+        margin-top: 4rem;
+        
+    }
+    .btn {
+
+        padding: 1.5rem 3rem;
+        border: 2px solid yellow;
+        font-family: sans-serif;
+        margin-top: 45rem;
+        margin-left: 7.5rem;
+        font-size: 1.7rem;
+        color: #fff;
+        background-color: #000;
+        background-size:contain;
+        border-radius: 25rem;
+        background-size: auto;
+    }
+   
+
+    .about-nise10 {
+        margin-top: -30rem;
+        margin-left: 2rem;
+     
+    
+        font-size: 2rem;
+        opacity: .7;
+        color: yellow;
+        
+        
+        font-family: sans-serif;
+      margin-bottom: -.05rem;
+       
+    }
+    .timeline ul {
+        border-left: 1px solid wheat;
+        border-radius: .4rem;
+        background-color: rgba(0, 0, 0, 0.05);
+        margin: 1;
+        position: relative;
+        padding: 3rem;
+        list-style: none;
+        text-align: left;
+        width: 5%;
+        margin-left: 29rem;
+    }
+    
+    .timeline h1 {
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-bottom: 0rem;
+        min-width: 39rem;
+    }
+    .timeline p {
+        margin-top: 1rem;
+        font-size: 1.9rem;
+        min-width: 39rem;
+        
+    }
+    
+    .timeline .date {
+        border-bottom: 1px solid rgba(255, 255, 255, 0. 1);
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        position: relative;
+        margin-left: 4rem;
+    }
+    
+    .timeline .date:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
+    }
+    
+    .timeline .date::before,
+    .timeline .date::after {
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.8rem;
+    }
+    
+    .time .date::before {
+        content: attr(data-date);
+        left: -21rem;
+        text-align: right;
+        min-width: 12rem;
+        font-size: 2rem;
+    }
+    
+    .time .date::after {
+        content: '';
+        box-shadow: 0 0 0 4px #fd57bf;
+        border-radius: 30%;
+        left: 8rem;
+        height: 1rem;
+        width: 1rem;
+        background-color: #313534;
+    }
+    
+    .about-nise009 {
+    
+
+
+        
+        margin-top: -5rem;
+        margin-right: 1rem;
+        margin-left: 2rem;
+        max-width: 33rem;
+        
+        font-size: 2rem;
+        opacity: .7;
+        color: yellow;
+        
+        margin-bottom: -5rem;
+    }
+    .portfolio-item {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 4rem;
+        margin-right: -4rem;
+        margin-top: 7rem;
+        margin-left: 1rem
+    }
+    .about-nise2 {
+
+        margin-top: 2rem;
+        font-family: sans-serif;
+        color: white;
+        font-size: 2rem;
+        margin-left: 9rem;
+        max-width: 67rem;
+        
+    }
+    .ok2{
+        margin-top: -2rem;
+        
+    }
+    .about-nise1090 {
+
+        margin-top: -4rem;
+        font-family: sans-serif;
+        color: white;
+        font-size: 2rem;
+        margin-left: 9rem;
+        margin-bottom: -4rem;
+    
+    }
+    .ko1 {
+        margin-left: -.6rem;
+        width: 95%;
+        margin-top: 1rem;
+    }
+    .pop{
+        width: 100%;
+   
+    }
+    .contact {
+        margin-top: -4rem;    
+        background-color: #221e4f;
+        margin-bottom: -4rem;
+        }
+    
+        form {
+            margin-top: 1rem;
+            margin-left: 16rem;
+            width: 70%;
+        
+        }
+    
+        form label {
+            font-size: 2rem;
+        }
+        
+    
+        input,
+        select,
+        textarea {
+            width: 100%;
+            height:7rem;
+          
+            margin-bottom: 2px;
+          
+            outline-color: #fd57bf;
+            font-size: 2rem;
+    
+        }
+    
+        input[type="submit"]:hover {
+            color: #221e3f;
+            background-color: #ffe838;
+        }
+    
+        .copyright .ff{
+            width: 100%;
+          
+            background-color: #16162d;
+            
+           
+            font-size: 2rem;
+            margin-bottom: -10rem;
+        }
+    
+        .up {
+            position: absolute;
+            width: 5rem;
+            height: 5rem;
+            background-color: #eee;
+            top: -2.5rem;
+            right: 5rem;
+            border-radius: 100%;
+            display: flex;
+            animation: pulse 2s infinite;
+        }
+        .ff{
+            font-size: 2rem;
+        }
+    
+        .up i {
+            color: #16162d;
+            font-size: 4rem;
+            margin: auto;
+        }
+    
+        .copyright p {
+            font-size: 2rem;
+        }
+        .about-nis {
+            margin-top: -2rem;
+            font-size: 2em;
+        }
+        .about-nis2 {
+           
+            font-size: 2rem;
+            margin-bottom: 5rem;
+        }
+            
+    .content-wrapper {
+        max-width: 60rem;
+    }
+    .tagline {
+        font-size: 1.6rem;
+    }
+    .title {
+        font-size: 3rem;
+        opacity: 30%;
+    }
+    .message {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (min-width: 1228px) and (max-width: 1586px){
+    .loko{
+        margin-top: -11rem;
+        width: 28%;
+        margin-left: 2rem;
+    
+    }
+    .about-nise4 {
+       
+        margin-top: 11rem;
+       margin-bottom: 3rem;
+        margin-left: 58rem;
+        width: 80%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
