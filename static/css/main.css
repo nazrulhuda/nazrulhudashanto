@@ -3556,7 +3556,7 @@ input[type="submit"]:hover {
 }
 
 
-@media (min-width: 1228px) and (max-width: 1586px){
+@media (min-width: 1228px){
     .loko{
         margin-top: -11rem;
         width: 28%;
