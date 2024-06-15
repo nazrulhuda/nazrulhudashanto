@@ -744,16 +744,22 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -4rem;
+        margin-top: -30rem;
         margin-right: 1rem;
-        margin-left:  -4rem;
+        margin-left:  0rem;
         max-width: 16rem;
         
-        font-size: 1rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
         margin-bottom: -5rem;
+    }
+    .pop3{
+        width: 75%;
+        margin-left: 2.8rem;
+        margin-bottom: -3rem;
+       
     }
     .portfolio-item {
         display: flex;
@@ -765,11 +771,11 @@ input[type="submit"]:hover {
     }
     .about-nise2 {
 
-    
+        width: 100%;
         font-family: sans-serif;
         color: white;
         font-size: 1rem;
-        margin-left: -5rem;
+        margin-left: -6rem;
         
     }
     .ok2{
@@ -911,10 +917,10 @@ input[type="submit"]:hover {
      }
      .about-nise4 {
        
-        margin-top: 11rem;
+        margin-top: 10rem;
        margin-bottom: 3rem;
         margin-left: 54rem;
-        width: 40%; /* Adjust the width as needed */
+        width: 39%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -922,10 +928,10 @@ input[type="submit"]:hover {
      }
      .social-media {
        
-        margin-left:4.5rem;
-        margin-top: -5rem;
+      
+        margin-top: -6rem;
          margin-bottom: 1rem;
-         margin-left: 12rem;
+         margin-left: 5rem;
        
     }
     .social-media i {
@@ -941,8 +947,8 @@ input[type="submit"]:hover {
         padding: 1rem 2rem;
         border: 2px solid yellow;
         font-family: sans-serif;
-        margin-top: -44rem;
-        margin-left: 9rem;
+        margin-top: -50rem;
+        margin-left: 1rem;
         font-size: 1rem;
         color: #fff;
         background-color: #000;
@@ -1047,16 +1053,22 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -4rem;
+        margin-top: -31rem;
         margin-right: 1rem;
         margin-left:  -4rem;
         max-width: 16rem;
         
-        font-size: 1rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
         margin-bottom: -5rem;
+    }
+    .pop3{
+        width: 70%;
+        margin-left: 2.9rem;
+        margin-bottom: -4rem;
+       
     }
     .portfolio-item {
         display: flex;
@@ -1216,7 +1228,7 @@ input[type="submit"]:hover {
         margin-top: 11rem;
        margin-bottom: 3rem;
         margin-left: 52rem;
-        width: 43%; /* Adjust the width as needed */
+        width: 37%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -1346,16 +1358,22 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -27rem;
         margin-right: 1rem;
         margin-left:  -4rem;
         max-width: 16rem;
         
-        font-size: 1.2rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
         margin-bottom: -5rem;
+    }
+    .pop3{
+        width: 85%;
+        margin-left: .8rem;
+        margin-bottom: -4rem;
+       
     }
     .portfolio-item {
         display: flex;
@@ -1516,7 +1534,7 @@ input[type="submit"]:hover {
         margin-top: 11rem;
        margin-bottom: 3rem;
         margin-left: 52rem;
-        width: 43%; /* Adjust the width as needed */
+        width: 38%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -1646,16 +1664,22 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -29rem;
         margin-right: 1rem;
         margin-left:  -4rem;
         max-width: 16rem;
         
-        font-size: 1.2rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
         margin-bottom: -5rem;
+    }
+    .pop3{
+        width: 85%;
+        margin-left: .8rem;
+        margin-bottom: -4rem;
+       
     }
     .portfolio-item {
         display: flex;
@@ -1816,7 +1840,7 @@ input[type="submit"]:hover {
         margin-top: 11rem;
        margin-bottom: 3rem;
         margin-left: 52rem;
-        width: 43%; /* Adjust the width as needed */
+        width: 39%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -2118,7 +2142,7 @@ input[type="submit"]:hover {
         margin-top: 11rem;
        margin-bottom: 3rem;
         margin-left: 53rem;
-        width: 49%; /* Adjust the width as needed */
+        width: 41%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -3284,7 +3308,7 @@ input[type="submit"]:hover {
         margin-top: 11rem;
        margin-bottom: 3rem;
         margin-left: 58rem;
-        width: 70%; /* Adjust the width as needed */
+        width: 60%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -3568,7 +3592,7 @@ input[type="submit"]:hover {
         margin-top: 11rem;
        margin-bottom: 3rem;
         margin-left: 58rem;
-        width: 80%; /* Adjust the width as needed */
+        width: 70%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -3691,12 +3715,12 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -15rem;
         margin-right: 1rem;
-        margin-left: 2rem;
+        margin-left: 33rem;
         max-width: 33rem;
         
-        font-size: 2rem;
+        font-size: 2.4rem;
         opacity: .7;
         color: yellow;
         
