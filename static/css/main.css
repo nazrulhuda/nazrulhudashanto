@@ -1102,8 +1102,8 @@ input[type="submit"]:hover {
     
     }
     .ko1 {
-        margin-left: -3.1rem;
-        width: 140%;
+      
+        width: 130%;
         margin-top: 1rem;
     }
     .pop{
@@ -1970,12 +1970,12 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -30rem;
         margin-right: 1rem;
-        margin-left:  -4rem;
+        margin-left:  0rem;
         max-width: 16rem;
         
-        font-size: 1.2rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
@@ -2267,12 +2267,12 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -15em;
         margin-right: 1rem;
         margin-left: -4rem;
         max-width: 24rem;
         
-        font-size: 1.5rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
@@ -2292,7 +2292,7 @@ input[type="submit"]:hover {
         font-family: sans-serif;
         color: white;
         font-size: 1.3rem;
-        margin-left: -1rem;
+        margin-left: -5rem;
         max-width: 50rem;
         
     }
@@ -2306,13 +2306,13 @@ input[type="submit"]:hover {
         font-family: sans-serif;
         color: white;
         font-size: 1.3rem;
-        margin-left: 0rem;
+        margin-left: -4rem;
         margin-bottom: -4rem;
     
     }
     .ko1 {
         margin-left: -.6rem;
-        width: 95%;
+        width: 100%;
         margin-top: 1rem;
     }
     .pop{
@@ -2565,12 +2565,12 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -28rem;
         margin-right: 1rem;
         margin-left: 2rem;
         max-width: 24rem;
         
-        font-size: 1.5rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
@@ -2590,7 +2590,7 @@ input[type="submit"]:hover {
         font-family: sans-serif;
         color: white;
         font-size: 1.3rem;
-        margin-left: 4rem;
+        margin-left: 0rem;
         max-width: 50rem;
         
     }
@@ -2863,12 +2863,12 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -27rem;
         margin-right: 1rem;
         margin-left: 2rem;
         max-width: 24rem;
         
-        font-size: 1.7rem;
+        font-size: 2rem;
         opacity: .7;
         color: yellow;
         
@@ -2888,7 +2888,7 @@ input[type="submit"]:hover {
         font-family: sans-serif;
         color: white;
         font-size: 1.6rem;
-        margin-left: 4rem;
+        margin-left: 0rem;
         max-width: 50rem;
         
     }
@@ -3431,7 +3431,7 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -5rem;
+        margin-top: -28rem;
         margin-right: 1rem;
         margin-left: 2rem;
         max-width: 33rem;
