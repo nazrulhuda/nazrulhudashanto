@@ -619,8 +619,8 @@ input[type="submit"]:hover {
        
         margin-top: 11rem;
        margin-bottom: 3rem;
-        margin-left: 55rem;
-        width: 32%; /* Adjust the width as needed */
+        margin-left: 57rem;
+        width: 31%; /* Adjust the width as needed */
        
         
          font-family:sans-serif;
@@ -744,7 +744,7 @@ input[type="submit"]:hover {
 
 
         
-        margin-top: -30rem;
+        margin-top: -32rem;
         margin-right: 1rem;
         margin-left:  0rem;
         max-width: 16rem;
@@ -775,7 +775,7 @@ input[type="submit"]:hover {
         font-family: sans-serif;
         color: white;
         font-size: 1rem;
-        margin-left: -6rem;
+        margin-left: -4rem;
         
     }
     .ok2{
@@ -793,8 +793,8 @@ input[type="submit"]:hover {
     
     }
     .ko1 {
-        margin-left: -3.1rem;
-        width: 140%;
+        margin-left: -1rem;
+        width: 130%;
         margin-top: 1rem;
     }
     .pop{
